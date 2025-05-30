@@ -7,6 +7,7 @@ using UnityEngine;
 public struct WeaponSetting
 {
     public WeaponName   weaponName;
+    public int          damage;
     public int          currentMagazine;
     public int          maxMagazine;
     public int          currentAmmo;
