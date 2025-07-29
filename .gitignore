@@ -70,3 +70,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 🛑 Unity Burst Compiler의 대용량 바이너리 무시
+/[Ll]ibrary/PackageCache/com.unity.burst*/libburst-llvm-*.dylib
+
